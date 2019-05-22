@@ -1,0 +1,37 @@
+~/dt/learn4todo.txt
+
+useradd -m -s /bin/bash -G sudo learn4
+passwd learn4
+
+vi ~/.ssh/config
+
+ssh -AY learn4
+
+install dotfiles
+
+install rbenv
+
+rbenv install ruby 2.6.3
+
+gem install rails
+
+rails new learn4 -d postgresql
+
+cp ~dan/dt/learn4todo.txt public/
+
+git init
+
+git add .;git commit -am hi
+
+vi Gemfile
+
+bundle
+
+install heroku
+
+heroku create learn4
+
+vi ~/ks/mem/herokupea.txt
+
+
+
