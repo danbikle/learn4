@@ -15,7 +15,7 @@ rbenv install ruby 2.6.3
 
 gem install rails
 
-rails new learn4 -d postgresql
+rails new learn4 -MOCSJ --skip-yarn --skip-listen --skip-spring --skip-active-storage --skip-coffee --skip-bootsnap
 
 cp ~dan/dt/learn4todo.txt public/
 
