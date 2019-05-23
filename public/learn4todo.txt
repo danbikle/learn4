@@ -29,9 +29,11 @@ bundle
 
 install heroku
 
-heroku create learn4
-
 vi ~/ks/mem/herokupea.txt
+
+heroku create cs101a
+
+
 
 
 
